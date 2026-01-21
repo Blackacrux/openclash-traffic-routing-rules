@@ -104,6 +104,15 @@ rules:
   
   - RULE-SET,bilibili,哔哩哔哩
   - RULE-SET,spotify,Spotify
+
+  - DOMAIN,renzhe.cloud,香港
+  - DOMAIN,renzhecloud.com,香港
+  - DOMAIN,knowledgebase.renzhecloud.link,香港
+  - DOMAIN,status.renzhecloud.link,香港
+  - DOMAIN,renzhesubconverter.com,香港
+  - DOMAIN,share.renzhe.cloud,香港
+ 
+
   
   - RULE-SET,onedrive,OneDrive
   - RULE-SET,microsoft,Microsoft
