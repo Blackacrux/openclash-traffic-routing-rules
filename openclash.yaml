@@ -85,12 +85,16 @@ proxy-groups:
   - {name: 🇯🇵日本, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$"}
   - {name: 🇺🇲美国, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(美|US|(?i)States|America))^((?!(港|台|日|韩|新)).)*$"}
   
-  - {name: 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(直连)).)*$", icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Transfer.png}
-  - {name: 全部节点, type: select, include-all: true}
+  - {name: ♻️自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(直连)).)*$"}
+  - {name: 🌐全部节点, type: select, include-all: true}
+  - {name: 🎯全球直连, type: select, proxies: direct}
   
   - {name: 规则之外, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Fish.png}
 
 rules:
+  - RULE-SET,private_ip,直连,no-resolve
+  - RULE-SET,private_domain,直连
+  
   - DOMAIN,renzhe.cloud,忍者云
   - DOMAIN,renzhecloud.com,忍者云
   - DOMAIN,knowledgebase.renzhecloud.link,忍者云
