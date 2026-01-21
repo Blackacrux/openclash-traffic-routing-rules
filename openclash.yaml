@@ -76,8 +76,8 @@ proxy-groups:
   - {name: 🍀 Google, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连]}
   - {name: 🍎 Apple, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连]}
   
-  - {name: 👨🏿‍💻 GitHub, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连]}
-  - {name: 🤖 ChatGPT, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连]}
+  - {name: GitHub, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连], icon: "https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/GitHub.png"}
+  - {name: ChatGPT, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连], icon: "https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/ChatGPT.png"}
  
   
   - {name: 🎵 TikTok, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连]}
