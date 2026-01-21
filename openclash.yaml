@@ -67,10 +67,10 @@ dns:
 proxy-groups:
   - {name: 默认代理, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/China.png}
   
+  - {name: 忍者云, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Omission.png}
   - {name: 哔哩哔哩, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/bilibili.png}
   - {name: Spotify, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Spotify.png}
-  - {name: 忍者云, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Omission.png}
-  
+
   - {name: OneDrive, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/OneDrive.png}
   - {name: Microsoft, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Microsoft.png}
   - {name: YouTube, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/YouTube.png}
@@ -95,7 +95,7 @@ proxy-groups:
   - {name: 全部节点, type: select, include-all: true, icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Auto_Link.png}
   - {name: 全球直连, type: direct, icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Global.png}
   
-  - {name: 漏网之鱼, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Fish.png}
+  - {name: 规则之外, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Fish.png}
 
 # 规则匹配
 rules:
@@ -131,7 +131,7 @@ rules:
   - RULE-SET,cn,全球直连
   - RULE-SET,cn_ip,全球直连
   
-  - MATCH,漏网之鱼
+  - MATCH,规则之外
 
 # 规则集
 ## type：可选http/file/inline  behavior：可选domain/ipcidr/classical format：可选yaml/text/mrs
