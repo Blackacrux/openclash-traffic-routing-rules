@@ -55,40 +55,40 @@ dns:
     - https://doh.pub/dns-query
  
 proxy-groups:
-  - {name: 默认代理, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/China.png}
+  - {name: 默认代理, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/China.png}
   
-  - {name: 忍者云, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Omission.png}
-  - {name: 哔哩哔哩, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/bilibili.png}
-  - {name: Spotify, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Spotify.png}
+  - {name: 忍者云, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Omission.png}
+  - {name: 哔哩哔哩, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/bilibili.png}
+  - {name: Spotify, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Spotify.png}
 
-  - {name: Steam, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Steam.png}
+  - {name: Steam, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Steam.png}
 
-  - {name: OneDrive, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/OneDrive.png}
-  - {name: Microsoft, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Microsoft.png}
-  - {name: YouTube, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/YouTube.png}
-  - {name: Google, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Google.png}
-  - {name: Apple, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Apple.png}
+  - {name: OneDrive, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/OneDrive.png}
+  - {name: Microsoft, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Microsoft.png}
+  - {name: YouTube, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/YouTube.png}
+  - {name: Google, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Google.png}
+  - {name: Apple, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Apple.png}
   
-  - {name: GitHub, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/GitHub.png}
-  - {name: ChatGPT, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/ChatGPT.png}
-  - {name: SpeedTest, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/SpeedTest.png}
-  - {name: PayPal, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/PayPal.png}
+  - {name: GitHub, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/GitHub.png}
+  - {name: ChatGPT, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/ChatGPT.png}
+  - {name: SpeedTest, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/SpeedTest.png}
+  - {name: PayPal, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/PayPal.png}
   
-  - {name: TikTok, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/TikTok.png}
-  - {name: Telegram, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Telegram.png}
-  - {name: NETFLIX, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https:https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Netflix_b.png}
-  - {name: Porhhub, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https:https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Pornhub.png}
+  - {name: TikTok, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/TikTok.png}
+  - {name: Telegram, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Telegram.png}
+  - {name: NETFLIX, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 默认代理, 自动选择, 全部节点, 直连], icon: https:https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Netflix_b.png}
+  - {name: Porhhub, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 默认代理, 自动选择, 全部节点, 直连], icon: https:https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Pornhub.png}
   
-  - {name: 香港, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
-  - {name: 台湾, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(台|TW|(?i)Taiwan))^((?!(港|日|韩|新|深|美)).)*$"}
-  - {name: 新加坡, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(新加坡|坡|狮城|SG|Singapore))^((?!(港|台|韩|日|美)).)*$"}
-  - {name: 日本, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$"}
-  - {name: 美国, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(美|US|(?i)States|America))^((?!(港|台|日|韩|新)).)*$"}
+  - {name: 🇭🇰香港, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
+  - {name: 🇹🇼台湾, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(台|TW|(?i)Taiwan))^((?!(港|日|韩|新|深|美)).)*$"}
+  - {name: 🇸🇬新加坡, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(新加坡|坡|狮城|SG|Singapore))^((?!(港|台|韩|日|美)).)*$"}
+  - {name: 🇯🇵日本, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$"}
+  - {name: 🇺🇲美国, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(美|US|(?i)States|America))^((?!(港|台|日|韩|新)).)*$"}
   
   - {name: 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(直连)).)*$", icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Transfer.png}
   - {name: 全部节点, type: select, include-all: true, icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Auto_Link.png}}
   
-  - {name: 规则之外, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Fish.png}
+  - {name: 规则之外, type: select, proxies: [🇭🇰香港, 🇹🇼台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇲美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Fish.png}
 
 rules:
   - DOMAIN,renzhe.cloud,忍者云
