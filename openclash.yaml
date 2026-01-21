@@ -79,11 +79,11 @@ proxy-groups:
   - {name: NETFLIX, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https:https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Netflix_b.png}
   - {name: Porhhub, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https:https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Pornhub.png}
   
-  - {name: 香港, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$", icon: "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Hong_Kong.png"}
-  - {name: 台湾, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(台|TW|(?i)Taiwan))^((?!(港|日|韩|新|深|美)).)*$", icon: "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Taiwan_Province.png"}
-  - {name: 新加坡, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(新加坡|坡|狮城|SG|Singapore))^((?!(港|台|韩|日|美)).)*$", icon: "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Singapore.png"}
-  - {name: 日本, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$", icon: "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Japan.png"}
-  - {name: 美国, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(美|US|(?i)States|America))^((?!(港|台|日|韩|新)).)*$", icon: "https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/USA.png"}
+  - {name: 香港, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
+  - {name: 台湾, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(台|TW|(?i)Taiwan))^((?!(港|日|韩|新|深|美)).)*$"}
+  - {name: 新加坡, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(新加坡|坡|狮城|SG|Singapore))^((?!(港|台|韩|日|美)).)*$"}
+  - {name: 日本, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$"}
+  - {name: 美国, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(美|US|(?i)States|America))^((?!(港|台|日|韩|新)).)*$"}
   
   - {name: 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(直连)).)*$", icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Transfer.png}
   - {name: 全部节点, type: select, include-all: true, icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Auto_Link.png}}
