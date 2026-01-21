@@ -126,7 +126,7 @@ rules:
   - RULE-SET,google_ip,Google
   - RULE-SET,netflix_ip,NETFLIX
   - RULE-SET,telegram_ip,Telegram
-  - RULE-SET,geolocation,默认代理
+  - RULE-SET,geolocation,全球直连
   - RULE-SET,cn,全球直连
   - RULE-SET,cn_ip,全球直连
   
