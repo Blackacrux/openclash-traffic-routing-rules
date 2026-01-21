@@ -88,7 +88,7 @@ proxy-groups:
   - {name: 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(直连)).)*$", icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Transfer.png}
   - {name: 全部节点, type: select, include-all: true, icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Auto_Link.png}}
   
-  - {name: 规则之外, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 全球直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Fish.png}
+  - {name: 规则之外, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 默认代理, 自动选择, 全部节点, 直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Fish.png}
 
 rules:
   - DOMAIN,renzhe.cloud,忍者云
