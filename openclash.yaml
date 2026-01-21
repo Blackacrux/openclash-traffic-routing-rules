@@ -61,6 +61,8 @@ proxy-groups:
   - {name: 哔哩哔哩, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/bilibili.png}
   - {name: Spotify, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Spotify.png}
 
+  - {name: steam商店, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Steam.png}
+
   - {name: OneDrive, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/OneDrive.png}
   - {name: Microsoft, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Microsoft.png}
   - {name: YouTube, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/YouTube.png}
