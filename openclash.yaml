@@ -111,8 +111,8 @@ rules:
   - RULE-SET,google,Google
   - RULE-SET,apple,Apple
   
-  - RULE-SET,github,👨🏿‍💻 GitHub
-  - RULE-SET,ai,🤖 ChatGPT
+  - RULE-SET,github,GitHub
+  - RULE-SET,ai,ChatGPT
   
   - RULE-SET,tiktok,TikTok
   - RULE-SET,telegram,Telegram
