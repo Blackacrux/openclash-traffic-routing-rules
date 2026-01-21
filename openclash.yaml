@@ -65,27 +65,24 @@ dns:
  
 # 出站策略
 proxy-groups:
-  - {name: 🚀 默认代理, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 🌍 全部节点, 直连]}
+  - {name: 默认代理, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Settings.png}
   
-  - {name: 哔哩哔哩, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/bilibili.png}
-  - {name: spotify, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Spotify.png}
-
-  - {name: OneDrive, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/OneDrive.png}
-  - {name: Microsoft, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连],icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Microsoft.png}
-  - {name: YouTube, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/YouTube.png}
-  - {name: Google, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Google.png}
-  - {name: Apple, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Apple.png}
+  - {name: 哔哩哔哩, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/bilibili.png}
+  - {name: spotify, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Spotify.png}
   
-  - {name: GitHub, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/GitHub.png}
-  - {name: ChatGPT, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/ChatGPT.png}
- 
+  - {name: OneDrive, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/OneDrive.png}
+  - {name: Microsoft, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连],icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Microsoft.png}
+  - {name: YouTube, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/YouTube.png}
+  - {name: Google, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Google.png}
+  - {name: Apple, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Apple.png}
   
-  - {name: TikTok, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连],icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/TikTok.png}
-  - {name: Telegram, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Telegram.png}
-  - {name: NETFLIX, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Netflix_b.png}
-  - {name: PayPal, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连],icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/PayPal.png}
+  - {name: GitHub, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/GitHub.png}
+  - {name: ChatGPT, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/ChatGPT.png}
   
-
+  - {name: TikTok, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连],icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/TikTok.png}
+  - {name: Telegram, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Telegram.png}
+  - {name: NETFLIX, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Netflix_b.png}
+  - {name: PayPal, type: select, proxies: [香港, 台湾, 新加坡, 日本, 美国, 自动选择, 全部节点, 全球直连],icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/PayPal.png}
   
   - {name: 香港, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$", icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Hong_Kong.png}
   - {name: 台湾, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(台|TW|(?i)Taiwan))^((?!(港|日|韩|新|深|美)).)*$", icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Taiwan_Province.png}
@@ -93,10 +90,11 @@ proxy-groups:
   - {name: 日本, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$", icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Japan.png}
   - {name: 美国, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(美|US|(?i)States|America))^((?!(港|台|日|韩|新)).)*$", icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/USA.png}
   
-  - {name: 🎲 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(直连)).)*$"}
-  - {name: 🌍 全部节点, type: select, include-all: true}
-
-  - {name: 🐟 漏网之鱼, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连]}
+  - {name: 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(直连)).)*$", icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Transfer.png}
+  - {name: 全部节点, type: select, include-all: true, icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Auto_Link.png}
+  - {name: 全球直连, type: direct, icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Global.png}
+  
+  - {name: 漏网之鱼, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇲 美国, 直连], icon: https://github.com/Vbaethon/HOMOMIX/blob/main/Icon/Color/Fish.png}
 
 # 规则匹配
 rules:
