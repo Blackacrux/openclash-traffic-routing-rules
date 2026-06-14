@@ -1,6 +1,6 @@
 proxy-providers:
   renzheyun:
-    url: "https://ninjasub.com/link/88jfKyHcnukWsskj?clash=1"
+    url: "https://cdn.weatherinfohub.com/assets/app/profile/4b32574264694e353332315a56426841/manifest?channel=stable&v=v1"
     type: http
     interval: 86400
     health-check:
@@ -12,6 +12,7 @@ proxy-providers:
 proxies:
   - {name: 直连, type: direct}
 
+# 全局配置 
 mixed-port: 7890
 allow-lan: true
 bind-address: "*"
@@ -26,6 +27,7 @@ profile:
   store-selected: true
   store-fake-ip: true
 
+# 入站
 tun:
   enable: true
   stack: mixed
@@ -34,6 +36,7 @@ tun:
   auto-redirect: false
   auto-detect-interface: false
 
+# DNS模块
 dns:
   enable: true
   cache-algorithm: arc
