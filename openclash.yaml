@@ -1,6 +1,6 @@
 proxy-providers:
   renzheyun:
-    url: "https://cdn.weatherinfohub.com/assets/app/profile/4b32574264694e353332315a56426841/manifest?channel=stable&v=v1"
+    url: "https://profile.honeyvora.com/assets/app/profile/4b32574264694e353332315a56426841/manifest?channel=stable&v=v1"
     type: http
     interval: 86400
     health-check:
